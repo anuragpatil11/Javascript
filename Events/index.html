@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Events</title>
+    <style>
+        .div-1{
+            height: 200px;
+            width: 200px;
+            background-color: dodgerblue;
+        }
+    </style>
+  </head>
+  <body>
+    <!-- Inline Event handling -->
+    <!-- Onclick Event when we click the button this event occur -->
+    <button onclick="console.log('btn clicked ');alert('hello')">
+      click me!!
+    </button>
+    <!-- Ondblclick event is happen when we click it 2 times -->
+    <button ondblclick="console.log('btn clicked 2x ');alert('hello 2x')">
+      click me!!
+    </button>
+    <!-- Onmouseover event is happen when we hover on element -->
+    <div class="div-1" onmouseover="console.log('you r on div'); alert('div')">
+        this is div
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
